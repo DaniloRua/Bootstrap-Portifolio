@@ -9,7 +9,7 @@
     line-height: 1.5;
 }
 body{
-    
+    text-align: center;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -26,6 +26,7 @@ header{
 .customMenu{
     color: #fffffe !important;
 }
+
 .titles:hover,
 .navbar-brand:hover,
 .nav-link:hover{
@@ -35,8 +36,40 @@ header{
 .nav-link{
     font-size: 20px;
 }
-.custom-card:hover{
+
+.custom-card:hover,
+.customImg:hover{
     box-shadow: 0px 0px 15px 10px var(--main-theme);
     scale: 1.03;
     transition: ease-in-out 0.5s;
+}
+.customDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary{
+   border: none;
+}
+
+.titles::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--main-theme);
+    transition: width .3s;
+}
+
+.btn-primary:hover::after {
+    width: 100%;
+    transition: width .6s;
+}
+#work-section{
+    display: flex;
+    text-align: center;
 }
