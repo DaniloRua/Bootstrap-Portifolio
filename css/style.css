@@ -1,82 +1,86 @@
-:root{
-    --main-theme: #ff8906;
+:root {
+  --main-theme: #ff8906;
 }
-*{
-    padding: 0;
-    margin: 0;
-    color: #fffffe !important;
-    background-color: #0f0e17 !important;
-    line-height: 1.5;
+* {
+  padding: 0;
+  margin: 0;
+  color: #fffffe !important;
+  background-color: #0f0e17 !important;
+  line-height: 1.5;
 }
-body{
-    text-align: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+body {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-main{
-    border-bottom: 5px solid var(--main-theme);
+main {
+  border-bottom: 5px solid var(--main-theme);
 }
-.customHeader{
-    background-color: #0f0e17 !important;
-    padding: 20px;
+.customHeader {
+  background-color: #0f0e17 !important;
+  padding: 20px;
 }
-header{
-    border-bottom: 5px solid var(--main-theme);
+header {
+  border-bottom: 5px solid var(--main-theme);
 }
-.navbar-brand{
-    font-size: 30px;
+.navbar-brand {
+  font-size: 30px;
 }
-.customMenu{
-    color: #fffffe !important;
+.customMenu {
+  color: #fffffe !important;
 }
 
 .titles:hover,
 .navbar-brand:hover,
-.nav-link:hover{
-    color: var(--main-theme) !important;
-    transition: 0.3s ease-in-out;
+.nav-link:hover {
+  color: var(--main-theme) !important;
+  transition: 0.3s ease-in-out;
 }
-.nav-link{
-    font-size: 20px;
+.nav-link {
+  font-size: 20px;
 }
 
 .custom-card:hover,
-.customImg:hover{
-    box-shadow: 0px 0px 15px 10px var(--main-theme);
-    scale: 1.03;
-    transition: ease-in-out 0.5s;
+.customImg:hover {
+  box-shadow: 0px 0px 15px 10px var(--main-theme);
+  scale: 1.03;
+  transition: ease-in-out 0.5s;
 }
-.customDiv{
-    display: flex;
-    align-items: center;
-    justify-content: center !important;
-    align-items: center !important;
-
+.customDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
 }
 .btn-primary:active,
 .btn-primary:focus,
-.btn-primary{
-   border: none;
+.btn-primary {
+  border: none;
 }
 
 .titles::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: var(--main-theme);
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--main-theme);
+  transition: width 0.3s;
 }
 
 .btn-primary:hover::after {
-    width: 100%;
-    transition: width .6s;
+  width: 100%;
+  transition: width 0.6s;
 }
-#work-section{
-    display: flex;
-    text-align: center;
+#work-section {
+  display: flex;
+  text-align: center;
 }
 
-.customFooter{
-    height: 15vh;
+.customFooter {
+  height: 10vh;
+}
+
+.customUl li:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
 }
