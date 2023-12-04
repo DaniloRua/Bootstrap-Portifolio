@@ -3,8 +3,9 @@
 This is a simple portfolio website created using Bootstrap and incorporating some custom elements with CSS. It showcases my skills, projects, and experiences in a clean and minimalistic design.
 
 ## Demo
-![Screenshot](/css/images/screenshot.png)
+![Screenshot](css/images/screenshot.png)
 
+# take a look!
 You can see a live demo of the portfolio [here](https://github.com/DaniloRua/Bootstrap-Portifolio).
 
 ## Features
