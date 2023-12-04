@@ -6,7 +6,7 @@ This is a simple portfolio website created using Bootstrap and incorporating som
 ![Screenshot](css/images/screenshot.png)
 
 # take a look!
-You can see a live demo of the portfolio [here](https://github.com/DaniloRua/Bootstrap-Portifolio).
+You can see a live demo of the portfolio [here](https://danilorua.github.io/Bootstrap-Portifolio/).
 
 ## Features
 
