@@ -13,9 +13,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-main {
-  border-bottom: 5px solid var(--main-theme);
-}
+
 .customHeader {
   background-color: #0f0e17 !important;
   padding: 20px;
@@ -39,7 +37,7 @@ header {
 .nav-link {
   font-size: 20px;
 }
-
+.btn-primary:hover,
 .custom-card:hover,
 .customImg:hover {
   box-shadow: 0px 0px 15px 10px var(--main-theme);
@@ -52,25 +50,16 @@ header {
   justify-content: center !important;
   align-items: center !important;
 }
+
+
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary {
-  border: none;
+  border: var(--main-theme) 1px solid !important;
 }
 
-.titles::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: var(--main-theme);
-  transition: width 0.3s;
-}
 
-.btn-primary:hover::after {
-  width: 100%;
-  transition: width 0.6s;
-}
+
 #work-section {
   display: flex;
   text-align: center;
